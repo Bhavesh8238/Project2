@@ -26,28 +26,7 @@ function setup(){
 
 function draw(){
     background("black")
-
-    if(keyDown("UP_ARROW")){
-        ship.y = ship.y - 2
-    }
-
-    if(keyDown("DOWN_ARROW")){
-        ship.y = ship.y + 2
-    }
-
-    console.log(sea.x)
-      
-    if(ship.y<182){
-    if(keyDown("UP_ARROW"))  
-        ship.y = 185
-        
-    }
-
-
-    if(ship.y<319){
-    if(keyDown("DOWN_ARROW"))    
-        ship.y = 312 
-    }
+ 
 
     sea.velocityX = -2
     if(sea.x<0){
